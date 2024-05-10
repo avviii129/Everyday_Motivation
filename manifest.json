@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Everyday motivation",
+    "description": "Keep it up buddy!",
+    "action": {
+        "default_title": "Keep it up buddy!",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "32": "./images/icon.png"
+    },
+    "version": "1.0.1",
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+}

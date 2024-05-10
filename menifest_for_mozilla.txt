@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Everyday motivation",
+  "description": "Keep it up buddy!",
+  "browser_action": {
+    "default_title": "Keep it up buddy!",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "32": "./images/icon.png"
+  },
+  "version": "1.0.1",
+  "permissions": ["scripting"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "your-extension-id@example.com",
+      "strict_min_version": "58.0"
+    }
+  },
+  "host_permissions": ["http://*/*", "https://*/*"]
+}
